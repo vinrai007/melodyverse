@@ -35,3 +35,8 @@ Create a .env file in the melodyverse-server directory and add the following:
 
 
 
+4. Start the server:
+    ```bash
+    npm start
+
+
