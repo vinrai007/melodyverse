@@ -5,12 +5,8 @@ MelodyVerse is a full-stack web application built with Node.js, Express.js, and 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 
@@ -40,3 +36,26 @@ Create a .env file in the melodyverse-server directory and add the following:
     npm start
 
 
+### Frontend
+
+1. Navigate to the frontend folder and install dependencies:
+   ```bash
+cd ../melodyverse-client
+npm install
+
+2.Start the React application:
+   ```bash
+npm start
+
+## Usage 
+1. Open your browser and navigate to http://localhost:3000 to access the application.
+2. Sign up with a new account.
+3. Log in with your credentials.
+4. View and scroll through the list of posts.
+
+## Features
+1. User authentication with JWT.
+2. Secure password storage using bcrypt.
+3. Responsive design using Tailwind CSS.
+4. Infinite scrolling for posts.
+5. Clear error and success messages.
