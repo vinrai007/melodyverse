@@ -43,9 +43,14 @@ Create a .env file in the melodyverse-server directory and add the following:
    cd ../melodyverse-client
    npm install
 
-2.Start the React application:
+2. Start the React application:
    ```bash
    npm start
+
+
+
+
+
 
 ### Usage 
 1. Open your browser and navigate to http://localhost:3000 to access the application.
